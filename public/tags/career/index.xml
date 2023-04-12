@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>career on NS</title>
+    <link>/tags/career/</link>
+    <description>Recent content in career on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why a Homelab?</title>
+      <link>/posts/2023-02/why-a-homelab/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2023-02/why-a-homelab/</guid>
+      <description>A homelab is a place where you can experiment, learn, and grow in ways you never thought possible. You can build yourself an environment to test and tinker with some technologies you may be interested in, practice setting up networks and operating systems, and explore cutting-edge technologies.
+With a homelab, you&amp;rsquo;re not just reading about the technology - you&amp;rsquo;re experiencing it firsthand. It&amp;rsquo;s a space where you can make mistakes and learn from them, without the fear of potentially damaging a production environment.</description>
+    </item>
+    
+  </channel>
+</rss>

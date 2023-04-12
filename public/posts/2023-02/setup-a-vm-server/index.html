@@ -1,0 +1,347 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>Setup a VM Server with Proxmox VE | NS</title>
+<meta name=keywords content="virtualization,proxmox,lxc,linux,homelab,containers">
+<meta name=description content="Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.
+In this article, I&rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.
+Requirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox&rsquo;s site and download the installation ISO.">
+<meta name=author content="Angel">
+<link rel=canonical href=/posts/2023-02/setup-a-vm-server/>
+<link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style>
+<link rel=icon href=/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=/favicon.ico>
+<link rel=icon type=image/png sizes=32x32 href=/favicon.ico>
+<link rel=mask-icon href=/favicon.ico>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H4GRFCYEJN"></script>
+<script>var dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes";if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-H4GRFCYEJN',{anonymize_ip:!1})}</script>
+<meta property="og:title" content="Setup a VM Server with Proxmox VE">
+<meta property="og:description" content="Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.
+In this article, I&rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.
+Requirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox&rsquo;s site and download the installation ISO.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/posts/2023-02/setup-a-vm-server/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2023-02-07T20:49:05-05:00">
+<meta property="article:modified_time" content="2023-02-07T20:49:05-05:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Setup a VM Server with Proxmox VE">
+<meta name=twitter:description content="Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.
+In this article, I&rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.
+Requirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox&rsquo;s site and download the installation ISO.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"/posts/"},{"@type":"ListItem","position":3,"name":"Setup a VM Server with Proxmox VE","item":"/posts/2023-02/setup-a-vm-server/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Setup a VM Server with Proxmox VE","name":"Setup a VM Server with Proxmox VE","description":"Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.\nIn this article, I\u0026rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.\nRequirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox\u0026rsquo;s site and download the installation ISO.","keywords":["virtualization","proxmox","lxc","linux","homelab","containers"],"articleBody":"Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.\nIn this article, I’ll guide you through the steps required to set up a Proxmox server for home labbing.\nRequirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox’s site and download the installation ISO.\nOnce you’ve downloaded the ISO file, create a bootable USB drive using a tool like Rufus or Etcher.\nNext, boot your server from the installation media and follow the prompts to install Proxmox.\nYou’ll need to configure network settings, disk partitioning, and user accounts during the installation process.\nWeb Interface After installing Proxmox, you should be able to access the Proxmox web interface by navigating to https://:8006 in your web browser.\nLog in with the root username and the password you created during the installation process.\nClick on the “Datacenter” node in the left sidebar, you should now be able to see an overview of your node.\nWorkflow Create Virtual Machines and Containers To create a virtual machine, click on the Create VM button in the Proxmox web interface.\nYou’ll need to provide details about the virtual machine, including the operating system, disk size, and memory allocation.\nYou can also configure network settings and attach ISO images or virtual disks to the virtual machine.\nSimilarly, to create a container, click on the Create CT button in the Proxmox web interface.\nLinux containers (LXC) are lightweight and use fewer resources than virtual machines. Proxmox utilizes LXC for container management.\nManage Virtual Machines and Containers From the web interface, you can start, stop, and delete virtual machines and containers, as well as view their resource usage and network statistics.\nBackups You can also create backups of your virtual machines and containers, either manually or automatically. Backups are always full backups - containing the VM/CT configuration and all data.\nBackups can be started via the GUI or via the vzdump command line tool.\nCLI Examples: Simply dump guest 777 - no snapshot, just archive the guest private area and configuration files to the default dump directory (usually /var/lib/vz/dump/).\n1  vzdump 777   Use rsync and suspend/resume to create a snapshot (minimal downtime).\n1  vzdump 777 --mode suspend   Backup all guest systems and send notification mails to root and admin.\n1  vzdump --all --mode suspend --mailto root --mailto admin   Use snapshot mode (no downtime) and non-default dump directory.\n1  vzdump 777 --dumpdir /mnt/backup --mode snapshot   Backup more than one guest (selectively)\n1  vzdump 101 102 103 --mailto root   Backup all guests excluding 101 and 102\n1  vzdump --mode suspend --exclude 101,102   Restore a container to a new CT 600\n1  pct restore 600 /mnt/backup/vzdump-lxc-777.tar   Restore a QemuServer VM to VM 601\n1  qmrestore /mnt/backup/vzdump-qemu-888.vma 601   Clone an existing container 101 to a new container 300 with a 4GB root file system, using pipes\n1  vzdump 101 --stdout | pct restore --rootfs 4 300 -   Remove Subscription Notice To get rid of the message, open a shell under the root user and type in the snippet below.\n1  sed -Ezi.bak \"s/(Ext.Msg.show\\(\\{\\s+title: gettext\\('No valid sub)/void\\(\\{ \\/\\/\\1/g\" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js \u0026\u0026 systemctl restart pveproxy.service   Similar VM Platforms and Software VMWare ESXi An enterprise-class, type-1 hypervisor developed by VMware for deploying and serving virtual machines.\nKVM (Kernel-based Virtual Machine) KVM is a popular open-source virtualization solution for Linux that provides a type 1 hypervisor and supports running multiple virtual machines on a single physical server.\nIt is currently the underlying platform that powers Proxmox’s virtual machine functionality.\nQEMU (Quick EMUlator) A generic and open source machine emulator and virtualizer.\nIt can also leverage KVM to run VMs at near native speed.\nMicrosoft Hyper-V Hyper-V is a type 1 hypervisor that is included with the Windows Server operating system.\nOracle VirtualBox VirtualBox is a popular open-source virtualization solution that can run on a variety of operating systems, including Windows, Linux, and MacOS.\nCitrix Hypervisor (formely XenServer) Citrix Hypervisor is a type 1 hypervisor that provides similar virtualization capabilities and is designed for enterprise use.\nVMware Workstation VMware Workstation is a type 2 hypervisor that runs on top of an existing operating system.\nEach of these virtualization platforms have their own strengths and weaknesses, the best choice will depend on the specific needs of the user or organization.\nConclusion Setting up a Proxmox server for home labbing is a great way to experiment with different configurations of operating systems, applications, and network setups.\nWith Proxmox, you can create and manage virtual machines and containers on a single server, without the need for additional hardware.\nLearn More  Official Docs \u0026 Manuals Proxmox Getting Started Guide Proxmox Tutorial Phoenixnap  ","wordCount":"841","inLanguage":"en","datePublished":"2023-02-07T20:49:05-05:00","dateModified":"2023-02-07T20:49:05-05:00","author":{"@type":"Person","name":"Angel"},"mainEntityOfPage":{"@type":"WebPage","@id":"/posts/2023-02/setup-a-vm-server/"},"publisher":{"@type":"Organization","name":"NS","logo":{"@type":"ImageObject","url":"/favicon.ico"}}}</script>
+</head>
+<body class=dark id=top>
+<script>localStorage.getItem("pref-theme")==="light"&&document.body.classList.remove('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href accesskey=h title="NS (Alt + H)">NS</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+</div>
+</div>
+<ul id=menu>
+<li>
+<a href=/search/ title="Search (Alt + /)" accesskey=/>
+<span>Search</span>
+</a>
+</li>
+<li>
+<a href=/blog/ title=Blog>
+<span>Blog</span>
+</a>
+</li>
+<li>
+<a href=tags/ title=Tags>
+<span>Tags</span>
+</a>
+</li>
+<li>
+<a href=/projects/ title=Projects>
+<span>Projects</span>
+</a>
+</li>
+<li>
+<a href=/contact/ title=Contact>
+<span>Contact</span>
+</a>
+</li>
+<li>
+<a href=/about/ title=About>
+<span>About</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<div class=breadcrumbs><a href>Home</a>&nbsp;»&nbsp;<a href=/posts/>Posts</a></div>
+<h1 class=post-title>
+Setup a VM Server with Proxmox VE
+</h1>
+<div class=post-meta><span title="2023-02-07 20:49:05 -0500 -0500">February 7, 2023</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;841 words&nbsp;·&nbsp;Angel
+</div>
+</header> <div class=toc>
+<details>
+<summary accesskey=c title="(Alt + C)">
+<span class=details>Table of Contents</span>
+</summary>
+<div class=inner><ul>
+<li>
+<a href=#requirements aria-label=Requirements>Requirements</a></li>
+<li>
+<a href=#setup aria-label=Setup>Setup</a><ul>
+<li>
+<a href=#download-and-install-proxmox aria-label="Download and Install Proxmox">Download and Install Proxmox</a></li>
+<li>
+<a href=#web-interface aria-label="Web Interface">Web Interface</a></li></ul>
+</li>
+<li>
+<a href=#workflow aria-label=Workflow>Workflow</a><ul>
+<li>
+<a href=#create-virtual-machines-and-containers aria-label="Create Virtual Machines and Containers">Create Virtual Machines and Containers</a></li>
+<li>
+<a href=#manage-virtual-machines-and-containers aria-label="Manage Virtual Machines and Containers">Manage Virtual Machines and Containers</a></li>
+<li>
+<a href=#backups aria-label=Backups>Backups</a><ul>
+<li>
+<a href=#cli-examples aria-label="CLI Examples:">CLI Examples:</a></li></ul>
+</li></ul>
+</li>
+<li>
+<a href=#remove-subscription-notice aria-label="Remove Subscription Notice">Remove Subscription Notice</a></li>
+<li>
+<a href=#similar-vm-platforms-and-software aria-label="Similar VM Platforms and Software">Similar VM Platforms and Software</a><ul>
+<li>
+<a href=#vmware-esxihttpswwwvmwarecomproductsesxi-and-esxhtml aria-label="VMWare ESXi"><a href=https://www.vmware.com/products/esxi-and-esx.html>VMWare ESXi</a></a></li>
+<li>
+<a href=#kvm-kernel-based-virtual-machinehttpswwwlinux-kvmorgpagemain_page aria-label="KVM (Kernel-based Virtual Machine)"><a href=https://www.linux-kvm.org/page/Main_Page>KVM (Kernel-based Virtual Machine)</a></a></li>
+<li>
+<a href=#qemu-quick-emulatorhttpswwwqemuorg aria-label="QEMU (Quick EMUlator)"><a href=https://www.qemu.org/>QEMU (Quick EMUlator)</a></a></li>
+<li>
+<a href=#microsoft-hyper-vhttpslearnmicrosoftcomen-usvirtualizationhyper-v-on-windowsabout aria-label="Microsoft Hyper-V"><a href=https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/>Microsoft Hyper-V</a></a></li>
+<li>
+<a href=#oracle-virtualboxhttpswwwvirtualboxorg aria-label="Oracle VirtualBox"><a href=https://www.virtualbox.org/>Oracle VirtualBox</a></a></li>
+<li>
+<a href=#citrix-hypervisor-formely-xenserverhttpsdocscitrixcomen-uscitrix-hypervisor8-2html aria-label="Citrix Hypervisor (formely XenServer)"><a href=https://docs.citrix.com/en-us/citrix-hypervisor/8-2.html>Citrix Hypervisor (formely XenServer)</a></a></li>
+<li>
+<a href=#vmware-workstationhttpswwwvmwarecomproductsworkstation-prohtml aria-label="VMware Workstation"><a href=https://www.vmware.com/products/workstation-pro.html>VMware Workstation</a></a></li></ul>
+</li>
+<li>
+<a href=#conclusion aria-label=Conclusion>Conclusion</a></li>
+<li>
+<a href=#learn-more aria-label="Learn More">Learn More</a>
+</li>
+</ul>
+</div>
+</details>
+</div>
+<div class=post-content><p><a href=https://www.proxmox.com/en/>Proxmox</a> is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.</p>
+<p>In this article, I&rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.</p>
+<h2 id=requirements>Requirements<a hidden class=anchor aria-hidden=true href=#requirements>#</a></h2>
+<ul>
+<li>A 64-bit CPU with Intel VT/AMD-V virtualization support</li>
+<li>At least 4GB of RAM (8GB or more is recommended)</li>
+<li>At least 16GB of storage space for the operating system and Proxmox installation</li>
+<li>At least one Ethernet port for network connectivity</li>
+</ul>
+<h2 id=setup>Setup<a hidden class=anchor aria-hidden=true href=#setup>#</a></h2>
+<h3 id=download-and-install-proxmox>Download and Install Proxmox<a hidden class=anchor aria-hidden=true href=#download-and-install-proxmox>#</a></h3>
+<p>Head over to the <a href=https://www.proxmox.com/en/downloads/category/iso-images-pve>Downloads</a> section on Proxmox&rsquo;s site and download the installation ISO.</p>
+<p>Once you&rsquo;ve downloaded the ISO file, create a bootable USB drive using a tool like <a href=https://rufus.ie/>Rufus</a> or <a href=https://www.balena.io/etcher>Etcher</a>.</p>
+<p>Next, boot your server from the installation media and follow the prompts to install Proxmox.</p>
+<p>You&rsquo;ll need to configure network settings, disk partitioning, and user accounts during the installation process.</p>
+<h3 id=web-interface>Web Interface<a hidden class=anchor aria-hidden=true href=#web-interface>#</a></h3>
+<p>After installing Proxmox, you should be able to access the Proxmox web interface by navigating to <code>https://&lt;your-server's-IP-address>:8006</code> in your web browser.</p>
+<p>Log in with the <code>root</code> username and the password you created during the installation process.</p>
+<p>Click on the &ldquo;Datacenter&rdquo; node in the left sidebar, you should now be able to see an overview of your node.</p>
+<p><img loading=lazy src=https://static.packt-cdn.com/products/9781788397605/graphics/3b7849f5-30af-4046-8d72-34dc6c9040d2.png alt=img>
+</p>
+<h2 id=workflow>Workflow<a hidden class=anchor aria-hidden=true href=#workflow>#</a></h2>
+<h3 id=create-virtual-machines-and-containers>Create Virtual Machines and Containers<a hidden class=anchor aria-hidden=true href=#create-virtual-machines-and-containers>#</a></h3>
+<p>To create a virtual machine, click on the <code>Create VM</code> button in the Proxmox web interface.</p>
+<p><img loading=lazy src=https://www.linuxbabe.com/wp-content/uploads/2020/08/proxmox-create-vm.png alt=img>
+</p>
+<p>You&rsquo;ll need to provide details about the virtual machine, including the operating system, disk size, and memory allocation.</p>
+<p><img loading=lazy src=https://nguvu.org/images/160716-001-create-vm.png alt=img>
+</p>
+<p>You can also configure network settings and attach ISO images or virtual disks to the virtual machine.</p>
+<p>Similarly, to create a container, click on the <code>Create CT</code> button in the Proxmox web interface.</p>
+<p><a href=https://linuxcontainers.org/>Linux containers (LXC)</a> are lightweight and use fewer resources than virtual machines. Proxmox utilizes LXC for container management.</p>
+<h3 id=manage-virtual-machines-and-containers>Manage Virtual Machines and Containers<a hidden class=anchor aria-hidden=true href=#manage-virtual-machines-and-containers>#</a></h3>
+<p>From the web interface, you can start, stop, and delete virtual machines and containers, as well as view their resource usage and network statistics.</p>
+<h3 id=backups>Backups<a hidden class=anchor aria-hidden=true href=#backups>#</a></h3>
+<p>You can also <a href=https://pve.proxmox.com/wiki/Backup_and_Restore>create backups</a> of your virtual machines and containers, either manually or automatically. Backups are always full backups - containing the VM/CT configuration and all data.</p>
+<p>Backups can be started via the GUI or via the <code>vzdump</code> command line tool.</p>
+<h4 id=cli-examples>CLI Examples:<a hidden class=anchor aria-hidden=true href=#cli-examples>#</a></h4>
+<p>Simply dump guest 777 - no snapshot, just archive the guest private area and configuration files to the default dump directory (usually /var/lib/vz/dump/).</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vzdump 777
+</code></pre></td></tr></table>
+</div>
+</div><p>Use rsync and suspend/resume to create a snapshot (minimal downtime).</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vzdump 777 --mode suspend
+</code></pre></td></tr></table>
+</div>
+</div><p>Backup all guest systems and send notification mails to root and admin.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vzdump --all --mode suspend --mailto root --mailto admin
+</code></pre></td></tr></table>
+</div>
+</div><p>Use snapshot mode (no downtime) and non-default dump directory.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vzdump 777 --dumpdir /mnt/backup --mode snapshot
+</code></pre></td></tr></table>
+</div>
+</div><p>Backup more than one guest (selectively)</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vzdump 101 102 103 --mailto root
+</code></pre></td></tr></table>
+</div>
+</div><p>Backup all guests excluding 101 and 102</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vzdump --mode suspend --exclude 101,102
+</code></pre></td></tr></table>
+</div>
+</div><p>Restore a container to a new CT 600</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>pct restore 600 /mnt/backup/vzdump-lxc-777.tar
+</code></pre></td></tr></table>
+</div>
+</div><p>Restore a QemuServer VM to VM 601</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>qmrestore /mnt/backup/vzdump-qemu-888.vma 601
+</code></pre></td></tr></table>
+</div>
+</div><p>Clone an existing container 101 to a new container 300 with a 4GB root file system, using pipes</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>vzdump 101 --stdout | pct restore --rootfs 4 300 -
+</code></pre></td></tr></table>
+</div>
+</div><h2 id=remove-subscription-notice>Remove Subscription Notice<a hidden class=anchor aria-hidden=true href=#remove-subscription-notice>#</a></h2>
+<p>To get rid of the message, open a shell under the root user and type in the snippet below.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>sed -Ezi.bak <span class=s2>&#34;s/(Ext.Msg.show\(\{\s+title: gettext\(&#39;No valid sub)/void\(\{ \/\/\1/g&#34;</span> /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js <span class=o>&amp;&amp;</span> systemctl restart pveproxy.service
+</code></pre></td></tr></table>
+</div>
+</div><h2 id=similar-vm-platforms-and-software>Similar VM Platforms and Software<a hidden class=anchor aria-hidden=true href=#similar-vm-platforms-and-software>#</a></h2>
+<h3 id=vmware-esxihttpswwwvmwarecomproductsesxi-and-esxhtml><a href=https://www.vmware.com/products/esxi-and-esx.html>VMWare ESXi</a><a hidden class=anchor aria-hidden=true href=#vmware-esxihttpswwwvmwarecomproductsesxi-and-esxhtml>#</a></h3>
+<p>An enterprise-class, type-1 hypervisor developed by VMware for deploying and serving virtual machines.</p>
+<h3 id=kvm-kernel-based-virtual-machinehttpswwwlinux-kvmorgpagemain_page><a href=https://www.linux-kvm.org/page/Main_Page>KVM (Kernel-based Virtual Machine)</a><a hidden class=anchor aria-hidden=true href=#kvm-kernel-based-virtual-machinehttpswwwlinux-kvmorgpagemain_page>#</a></h3>
+<p>KVM is a popular open-source virtualization solution for Linux that provides a type 1 hypervisor and supports running multiple virtual machines on a single physical server.</p>
+<p>It is currently the underlying platform that powers Proxmox&rsquo;s virtual machine functionality.</p>
+<h3 id=qemu-quick-emulatorhttpswwwqemuorg><a href=https://www.qemu.org/>QEMU (Quick EMUlator)</a><a hidden class=anchor aria-hidden=true href=#qemu-quick-emulatorhttpswwwqemuorg>#</a></h3>
+<p>A generic and open source machine emulator and virtualizer.</p>
+<p>It can also leverage KVM to run VMs at near native speed.</p>
+<h3 id=microsoft-hyper-vhttpslearnmicrosoftcomen-usvirtualizationhyper-v-on-windowsabout><a href=https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/>Microsoft Hyper-V</a><a hidden class=anchor aria-hidden=true href=#microsoft-hyper-vhttpslearnmicrosoftcomen-usvirtualizationhyper-v-on-windowsabout>#</a></h3>
+<p>Hyper-V is a type 1 hypervisor that is included with the Windows Server operating system.</p>
+<h3 id=oracle-virtualboxhttpswwwvirtualboxorg><a href=https://www.virtualbox.org/>Oracle VirtualBox</a><a hidden class=anchor aria-hidden=true href=#oracle-virtualboxhttpswwwvirtualboxorg>#</a></h3>
+<p>VirtualBox is a popular open-source virtualization solution that can run on a variety of operating systems, including Windows, Linux, and MacOS.</p>
+<h3 id=citrix-hypervisor-formely-xenserverhttpsdocscitrixcomen-uscitrix-hypervisor8-2html><a href=https://docs.citrix.com/en-us/citrix-hypervisor/8-2.html>Citrix Hypervisor (formely XenServer)</a><a hidden class=anchor aria-hidden=true href=#citrix-hypervisor-formely-xenserverhttpsdocscitrixcomen-uscitrix-hypervisor8-2html>#</a></h3>
+<p>Citrix Hypervisor is a type 1 hypervisor that provides similar virtualization capabilities and is designed for enterprise use.</p>
+<h3 id=vmware-workstationhttpswwwvmwarecomproductsworkstation-prohtml><a href=https://www.vmware.com/products/workstation-pro.html>VMware Workstation</a><a hidden class=anchor aria-hidden=true href=#vmware-workstationhttpswwwvmwarecomproductsworkstation-prohtml>#</a></h3>
+<p>VMware Workstation is a type 2 hypervisor that runs on top of an existing operating system.</p>
+<p>Each of these virtualization platforms have their own strengths and weaknesses, the best choice will depend on the specific needs of the user or organization.</p>
+<h2 id=conclusion>Conclusion<a hidden class=anchor aria-hidden=true href=#conclusion>#</a></h2>
+<p>Setting up a Proxmox server for home labbing is a great way to experiment with different configurations of operating systems, applications, and network setups.</p>
+<p>With Proxmox, you can create and manage virtual machines and containers on a single server, without the need for additional hardware.</p>
+<h2 id=learn-more>Learn More<a hidden class=anchor aria-hidden=true href=#learn-more>#</a></h2>
+<ul>
+<li><a href=https://pve.proxmox.com/pve-docs/>Official Docs & Manuals</a></li>
+<li><a href=https://www.proxmox.com/en/proxmox-ve/get-started>Proxmox Getting Started Guide</a></li>
+<li><a href=https://forum.proxmox.com/threads/proxmox-beginner-tutorial-how-to-set-up-your-first-virtual-machine-on-a-secondary-hard-disk.59559/>Proxmox Tutorial</a></li>
+<li><a href=https://phoenixnap.com/kb/install-proxmox>Phoenixnap</a></li>
+</ul>
+</div>
+<footer class=post-footer>
+<ul class=post-tags>
+<li><a href=/tags/virtualization/>virtualization</a></li>
+<li><a href=/tags/proxmox/>proxmox</a></li>
+<li><a href=/tags/lxc/>lxc</a></li>
+<li><a href=/tags/linux/>linux</a></li>
+<li><a href=/tags/homelab/>homelab</a></li>
+<li><a href=/tags/containers/>containers</a></li>
+</ul>
+<nav class=paginav>
+<a class=prev href=/posts/2023-02/get-started-with-docker/>
+<span class=title>« Prev</span>
+<br>
+<span>Get Started with Docker</span>
+</a>
+<a class=next href=/posts/2023-02/why-a-homelab/>
+<span class=title>Next »</span>
+<br>
+<span>Why a Homelab?</span>
+</a>
+</nav>
+</footer><script src=https://utteranc.es/client.js repo=netsparse/main-site-hugo issue-term=pathname theme=photon-dark crossorigin=anonymous async></script>
+</article>
+</main>
+<footer class=footer>
+<span>&copy; 2023 <a href>NS</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+<script>document.querySelectorAll('pre > code').forEach(b=>{const c=b.parentNode.parentNode,a=document.createElement('button');a.classList.add('copy-code'),a.innerHTML='copy';function d(){a.innerHTML='copied!',setTimeout(()=>{a.innerHTML='copy'},2e3)}a.addEventListener('click',e=>{if('clipboard'in navigator){navigator.clipboard.writeText(b.textContent),d();return}const a=document.createRange();a.selectNodeContents(b);const c=window.getSelection();c.removeAllRanges(),c.addRange(a);try{document.execCommand('copy'),d()}catch(a){}c.removeRange(a)}),c.classList.contains("highlight")?c.appendChild(a):c.parentNode.firstChild==c||(b.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?b.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(a):b.parentNode.appendChild(a))})</script>
+</body>
+</html>

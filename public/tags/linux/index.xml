@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on NS</title>
+    <link>/tags/linux/</link>
+    <description>Recent content in linux on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Apr 2023 16:35:08 -0500</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate Your Infrastructure With Ansible</title>
+      <link>/posts/2023-04/automate-your-infrastructure-with-ansible/</link>
+      <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
+      
+      <guid>/posts/2023-04/automate-your-infrastructure-with-ansible/</guid>
+      <description>Automating your infrastructure with Ansible can be a game-changer for any organization looking to streamline their processes and reduce manual labor.
+Intro Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration of infrastructure resources, using a declarative language to describe the desired state of a system.
+One of the key benefits of Ansible is its simplicity and ease of use.</description>
+    </item>
+    
+    <item>
+      <title>Quick Intro To Bash Scripting</title>
+      <link>/posts/2023-03/quick-bash-scripting/</link>
+      <pubDate>Tue, 21 Mar 2023 20:46:08 -0500</pubDate>
+      
+      <guid>/posts/2023-03/quick-bash-scripting/</guid>
+      <description>Overview Bash scripting is a powerful tool that enables users to automate tasks and streamline workflows in Unix-based operating systems, such as Linux and macOS.
+It can be used for a variety of purposes, including system administration, web development, data analysis, and more.
+Here&amp;rsquo;s a quick overview from Fireship.io.
+   Components Commands Consist of a series of commands that are executed one after the other.
+These commands can be standard Linux commands or custom commands written specifically for the script.</description>
+    </item>
+    
+    <item>
+      <title>Running Docker containers in a Proxmox LXC container</title>
+      <link>/posts/2023-02/docker-on-lxc/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2023-02/docker-on-lxc/</guid>
+      <description>&lt;p&gt;One awesome feature in Proxmox VE is to run an LXC (Linux Container) directly from the web interface.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setup a VM Server with Proxmox VE</title>
+      <link>/posts/2023-02/setup-a-vm-server/</link>
+      <pubDate>Tue, 07 Feb 2023 20:49:05 -0500</pubDate>
+      
+      <guid>/posts/2023-02/setup-a-vm-server/</guid>
+      <description>Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.
+In this article, I&amp;rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.
+Requirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox&amp;rsquo;s site and download the installation ISO.</description>
+    </item>
+    
+  </channel>
+</rss>

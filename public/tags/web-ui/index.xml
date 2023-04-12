@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>web-ui on NS</title>
+    <link>/tags/web-ui/</link>
+    <description>Recent content in web-ui on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Feb 2023 18:25:12 -0500</lastBuildDate><atom:link href="/tags/web-ui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage Your Docker Environment With Portainer</title>
+      <link>/posts/2023-02/manage-your-docker-env-with-portainer/</link>
+      <pubDate>Thu, 16 Feb 2023 18:25:12 -0500</pubDate>
+      
+      <guid>/posts/2023-02/manage-your-docker-env-with-portainer/</guid>
+      <description>Portainer is a simple and open-source web application for managing Docker containers. It lets users easily deploy and manage Docker-based applications through a web interface, without needing to use the command-line tools.
+It supports various Docker environments and provides role-based access control, making it suitable for both individuals and organizations. Portainer is also highly extensible, allowing users to add more functionalities and integrate with other tools and platforms.
+Deployment Install Portainer Community Edition (CE) First, create the volume that Portainer Server will use to store its database:</description>
+    </item>
+    
+  </channel>
+</rss>

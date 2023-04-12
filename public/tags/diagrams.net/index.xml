@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>diagrams.net on NS</title>
+    <link>/tags/diagrams.net/</link>
+    <description>Recent content in diagrams.net on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Feb 2023 17:05:15 -0500</lastBuildDate><atom:link href="/tags/diagrams.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome Diagrams and Graphs for Your Documentation</title>
+      <link>/posts/2023-02/create-awesome-diagrams-and-graphs-for-your-docs/</link>
+      <pubDate>Thu, 23 Feb 2023 17:05:15 -0500</pubDate>
+      
+      <guid>/posts/2023-02/create-awesome-diagrams-and-graphs-for-your-docs/</guid>
+      <description>Diagrams.net (or Draw.io) is a free and open source cross-platform graph drawing software developed in HTML5 and JavaScript by UK-based JGraph Ltd in 2000.
+Its interface can be used to create diagrams such as flowcharts, network diagrams, organizational charts, or any other type of diagram.
+It is a useful alternative to more commercial tools like Microsoft Visio or Lucidchart.
+Getting Started You can immediately start by heading over to the web application at app.</description>
+    </item>
+    
+  </channel>
+</rss>

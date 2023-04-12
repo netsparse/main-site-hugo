@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>virtualization on NS</title>
+    <link>/tags/virtualization/</link>
+    <description>Recent content in virtualization on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 20:49:05 -0500</lastBuildDate><atom:link href="/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup a VM Server with Proxmox VE</title>
+      <link>/posts/2023-02/setup-a-vm-server/</link>
+      <pubDate>Tue, 07 Feb 2023 20:49:05 -0500</pubDate>
+      
+      <guid>/posts/2023-02/setup-a-vm-server/</guid>
+      <description>Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.
+In this article, I&amp;rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.
+Requirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox&amp;rsquo;s site and download the installation ISO.</description>
+    </item>
+    
+    <item>
+      <title>2023 Lab Overview</title>
+      <link>/posts/2023-01/lab-overview/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2023-01/lab-overview/</guid>
+      <description>A general overview of the 2 home labs and networks I have designed, currently manage, and maintain.</description>
+    </item>
+    
+  </channel>
+</rss>

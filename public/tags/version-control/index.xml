@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>version control on NS</title>
+    <link>/tags/version-control/</link>
+    <description>Recent content in version control on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Mar 2023 23:32:13 -0500</lastBuildDate><atom:link href="/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With Git</title>
+      <link>/posts/2023-03/getting-started-with-git/</link>
+      <pubDate>Thu, 16 Mar 2023 23:32:13 -0500</pubDate>
+      
+      <guid>/posts/2023-03/getting-started-with-git/</guid>
+      <description>Git is a powerful and widely used version control system that allows developers to manage changes to their codebase efficiently.
+Whether you are working on a solo project or collaborating with a team, Git provides a simple and effective way to keep track of changes and revert to previous versions if necessary.
+In this article, we will cover the basics of using Git, including creating a repository, making changes, committing those changes, and pushing them to a remote repository.</description>
+    </item>
+    
+  </channel>
+</rss>

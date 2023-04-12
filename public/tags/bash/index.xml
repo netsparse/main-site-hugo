@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bash on NS</title>
+    <link>/tags/bash/</link>
+    <description>Recent content in bash on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2023 20:46:08 -0500</lastBuildDate><atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Intro To Bash Scripting</title>
+      <link>/posts/2023-03/quick-bash-scripting/</link>
+      <pubDate>Tue, 21 Mar 2023 20:46:08 -0500</pubDate>
+      
+      <guid>/posts/2023-03/quick-bash-scripting/</guid>
+      <description>Overview Bash scripting is a powerful tool that enables users to automate tasks and streamline workflows in Unix-based operating systems, such as Linux and macOS.
+It can be used for a variety of purposes, including system administration, web development, data analysis, and more.
+Here&amp;rsquo;s a quick overview from Fireship.io.
+   Components Commands Consist of a series of commands that are executed one after the other.
+These commands can be standard Linux commands or custom commands written specifically for the script.</description>
+    </item>
+    
+  </channel>
+</rss>

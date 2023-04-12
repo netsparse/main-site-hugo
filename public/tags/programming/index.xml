@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>programming on NS</title>
+    <link>/tags/programming/</link>
+    <description>Recent content in programming on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Mar 2023 23:32:13 -0500</lastBuildDate><atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With Git</title>
+      <link>/posts/2023-03/getting-started-with-git/</link>
+      <pubDate>Thu, 16 Mar 2023 23:32:13 -0500</pubDate>
+      
+      <guid>/posts/2023-03/getting-started-with-git/</guid>
+      <description>Git is a powerful and widely used version control system that allows developers to manage changes to their codebase efficiently.
+Whether you are working on a solo project or collaborating with a team, Git provides a simple and effective way to keep track of changes and revert to previous versions if necessary.
+In this article, we will cover the basics of using Git, including creating a repository, making changes, committing those changes, and pushing them to a remote repository.</description>
+    </item>
+    
+    <item>
+      <title>Hands-on with Python</title>
+      <link>/posts/2023-03/hands-on-python/</link>
+      <pubDate>Tue, 14 Mar 2023 22:50:11 -0500</pubDate>
+      
+      <guid>/posts/2023-03/hands-on-python/</guid>
+      <description>Intro Python is a high-level, interpreted programming language that is widely used for web development, data analysis, artificial intelligence, and other applications.
+It has a clean syntax and is easy to learn, making it a great choice for beginners as well as experienced developers.
+Here&amp;rsquo;s a quick overview from Fireship.io.
+   Overview Variables and Data Types In Python, variables are used to store values such as numbers, strings, and other data types.</description>
+    </item>
+    
+  </channel>
+</rss>

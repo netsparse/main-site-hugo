@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pi-hole on NS</title>
+    <link>/tags/pi-hole/</link>
+    <description>Recent content in pi-hole on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2023 23:32:47 -0500</lastBuildDate><atom:link href="/tags/pi-hole/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Block Ads for All Your Devices with Pi-Hole DNS and Docker</title>
+      <link>/posts/2023-03/pihole-dns-with-docker/</link>
+      <pubDate>Thu, 02 Mar 2023 23:32:47 -0500</pubDate>
+      
+      <guid>/posts/2023-03/pihole-dns-with-docker/</guid>
+      <description>Pi-hole is a DNS sinkhole that blocks advertisements, trackers, and other unwanted content from being served to devices on your network.
+It can be run on a Raspberry Pi or other hardware, but running it in a Docker container has some benefits, such as easier installation and management.
+If you are also new to Docker, check out my previous post on how to get started with Docker.
+A Bit of History The Pi-hole project was started by Jacob Salmela in 2014 as an open source alternative to AdTrap, which was a device that would block advertisements and tracking domains at the network level.</description>
+    </item>
+    
+  </channel>
+</rss>
