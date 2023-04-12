@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ads on NS</title>
-    <link>/tags/ads/</link>
-    <description>Recent content in ads on NS</description>
+    <title>ads on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/ads/</link>
+    <description>Recent content in ads on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Mar 2023 22:48:26 -0500</lastBuildDate><atom:link href="/tags/ads/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 22:48:26 -0500</lastBuildDate><atom:link href="https://netsparse.dev/tags/ads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Take Your Ad Blocking With You On The Go With NextDNS</title>
-      <link>/posts/2023-03/take-your-ad-blocking-with-you-with-nextdns/</link>
+      <link>https://netsparse.dev/posts/2023-03/take-your-ad-blocking-with-you-with-nextdns/</link>
       <pubDate>Tue, 07 Mar 2023 22:48:26 -0500</pubDate>
       
-      <guid>/posts/2023-03/take-your-ad-blocking-with-you-with-nextdns/</guid>
+      <guid>https://netsparse.dev/posts/2023-03/take-your-ad-blocking-with-you-with-nextdns/</guid>
       <description>In our previous post, we setup a Pi-hole DNS server to block ads on our local network.
 Although the Pi-hole is awesome, unfortunately it only works on our local network, and thus we don&amp;rsquo;t get the same benefits of ad blocking when we leaving the network.
 Today, I&amp;rsquo;ll show you how you can setup NextDNS on your mobile or laptop devices for whenever you need ad blocking on the go.</description>
@@ -20,10 +20,10 @@ Today, I&amp;rsquo;ll show you how you can setup NextDNS on your mobile or lapto
     
     <item>
       <title>Block Ads for All Your Devices with Pi-Hole DNS and Docker</title>
-      <link>/posts/2023-03/pihole-dns-with-docker/</link>
+      <link>https://netsparse.dev/posts/2023-03/pihole-dns-with-docker/</link>
       <pubDate>Thu, 02 Mar 2023 23:32:47 -0500</pubDate>
       
-      <guid>/posts/2023-03/pihole-dns-with-docker/</guid>
+      <guid>https://netsparse.dev/posts/2023-03/pihole-dns-with-docker/</guid>
       <description>Pi-hole is a DNS sinkhole that blocks advertisements, trackers, and other unwanted content from being served to devices on your network.
 It can be run on a Raspberry Pi or other hardware, but running it in a Docker container has some benefits, such as easier installation and management.
 If you are also new to Docker, check out my previous post on how to get started with Docker.

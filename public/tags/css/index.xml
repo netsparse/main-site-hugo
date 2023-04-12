@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>css on NS</title>
-    <link>/tags/css/</link>
-    <description>Recent content in css on NS</description>
+    <title>css on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/css/</link>
+    <description>Recent content in css on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Apr 2023 21:25:31 -0500</lastBuildDate><atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 21:25:31 -0500</lastBuildDate><atom:link href="https://netsparse.dev/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build a Quick Website With Hugo</title>
-      <link>/posts/2023-04/build-a-quick-website-with-hugo/</link>
+      <link>https://netsparse.dev/posts/2023-04/build-a-quick-website-with-hugo/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/posts/2023-04/build-a-quick-website-with-hugo/</guid>
-      <description>Overview Hugo is a popular static site generator written in Go. It allows you to create and manage static websites quickly and easily.
+      <guid>https://netsparse.dev/posts/2023-04/build-a-quick-website-with-hugo/</guid>
+      <description>Hugo is a popular static site generator written in Go. It allows you to create and manage static websites quickly and easily.
 In this guide, we will cover the basics of getting started with Hugo.
 Here&amp;rsquo;s a quick overview from Fireship.io.
-   Get Started Installation Download the appropriate package for your system.
- Windows Mac OS Linux  Content Management Creating a New Site 1  hugo new site &amp;lt;your-site-name&amp;gt;   This will create a new Hugo site in a directory named mysite.</description>
+Get Started Installation Download the appropriate package for your system.
+Windows Mac OS Linux Content Management Creating a New Site 1 hugo new site &amp;lt;your-site-name&amp;gt; This will create a new Hugo site in a directory named mysite.</description>
     </item>
     
     <item>
       <title>Migrating My Site From Jekyll to Hugo</title>
-      <link>/posts/2023-04/how-i-migrated-my-site/</link>
+      <link>https://netsparse.dev/posts/2023-04/how-i-migrated-my-site/</link>
       <pubDate>Tue, 04 Apr 2023 13:03:23 -0500</pubDate>
       
-      <guid>/posts/2023-04/how-i-migrated-my-site/</guid>
-      <description>I&amp;rsquo;ve been utilizing Jekyll for the past few months now to build my website. Although it does a pretty good job at doing so, I&amp;rsquo;ve been taking a look at Hugo and experimenting with it alongside it.
-After I was able to replicate the website and setup a theme for it, I ended up migrating the entire site and the posts with it, making sure everything was nicely organized.
-Although I&amp;rsquo;ve archived the old site, I still host it with GitHub Pages and have otherwise changed the URL, you could still access it here.</description>
+      <guid>https://netsparse.dev/posts/2023-04/how-i-migrated-my-site/</guid>
+      <description>I&amp;rsquo;ve been utilizing Jekyll for the past few months to build my website. Although it does a pretty good job at doing so, I&amp;rsquo;ve been taking a look at Hugo and experimenting alongside it.
+I was able to replicate my website on Hugo with a better looking theme and decided to take the leap. I went ahead and migrated my posts and basic items, making sure everything was nicely organized. And so far, it works pretty good!</description>
     </item>
     
     <item>
       <title>Hands-on with Python</title>
-      <link>/posts/2023-03/hands-on-python/</link>
+      <link>https://netsparse.dev/posts/2023-03/hands-on-python/</link>
       <pubDate>Tue, 14 Mar 2023 22:50:11 -0500</pubDate>
       
-      <guid>/posts/2023-03/hands-on-python/</guid>
-      <description>Intro Python is a high-level, interpreted programming language that is widely used for web development, data analysis, artificial intelligence, and other applications.
+      <guid>https://netsparse.dev/posts/2023-03/hands-on-python/</guid>
+      <description>Python is a high-level, interpreted programming language that is widely used for web development, data analysis, artificial intelligence, and other applications.
 It has a clean syntax and is easy to learn, making it a great choice for beginners as well as experienced developers.
 Here&amp;rsquo;s a quick overview from Fireship.io.
-   Overview Variables and Data Types In Python, variables are used to store values such as numbers, strings, and other data types.</description>
+Overview Variables and Data Types In Python, variables are used to store values such as numbers, strings, and other data types.</description>
     </item>
     
   </channel>

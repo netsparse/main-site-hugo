@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>homelab on NS</title>
-    <link>/tags/homelab/</link>
-    <description>Recent content in homelab on NS</description>
+    <title>homelab on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/homelab/</link>
+    <description>Recent content in homelab on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Apr 2023 16:35:08 -0500</lastBuildDate><atom:link href="/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 16:35:08 -0500</lastBuildDate><atom:link href="https://netsparse.dev/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automate Your Infrastructure With Ansible</title>
-      <link>/posts/2023-04/automate-your-infrastructure-with-ansible/</link>
+      <link>https://netsparse.dev/posts/2023-04/automate-your-infrastructure-with-ansible/</link>
       <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
       
-      <guid>/posts/2023-04/automate-your-infrastructure-with-ansible/</guid>
+      <guid>https://netsparse.dev/posts/2023-04/automate-your-infrastructure-with-ansible/</guid>
       <description>Automating your infrastructure with Ansible can be a game-changer for any organization looking to streamline their processes and reduce manual labor.
-Intro Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration of infrastructure resources, using a declarative language to describe the desired state of a system.
+Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration of infrastructure resources, using a declarative language to describe the desired state of a system.
 One of the key benefits of Ansible is its simplicity and ease of use.</description>
     </item>
     
     <item>
       <title>Running Docker containers in a Proxmox LXC container</title>
-      <link>/posts/2023-02/docker-on-lxc/</link>
+      <link>https://netsparse.dev/posts/2023-02/docker-on-lxc/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2023-02/docker-on-lxc/</guid>
+      <guid>https://netsparse.dev/posts/2023-02/docker-on-lxc/</guid>
       <description>&lt;p&gt;One awesome feature in Proxmox VE is to run an LXC (Linux Container) directly from the web interface.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Setup a VM Server with Proxmox VE</title>
-      <link>/posts/2023-02/setup-a-vm-server/</link>
+      <link>https://netsparse.dev/posts/2023-02/setup-a-vm-server/</link>
       <pubDate>Tue, 07 Feb 2023 20:49:05 -0500</pubDate>
       
-      <guid>/posts/2023-02/setup-a-vm-server/</guid>
+      <guid>https://netsparse.dev/posts/2023-02/setup-a-vm-server/</guid>
       <description>Proxmox is a powerful, open-source virtualization management platform that allows you to create and manage virtual machines (VMs) and containers on a single server. It is a popular choice for home labbing, where enthusiasts use it to create and test different configurations of operating systems, applications, and network setups.
 In this article, I&amp;rsquo;ll guide you through the steps required to set up a Proxmox server for home labbing.
-Requirements  A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity  Setup Download and Install Proxmox Head over to the Downloads section on Proxmox&amp;rsquo;s site and download the installation ISO.</description>
+Requirements A 64-bit CPU with Intel VT/AMD-V virtualization support At least 4GB of RAM (8GB or more is recommended) At least 16GB of storage space for the operating system and Proxmox installation At least one Ethernet port for network connectivity Setup Download and Install Proxmox Head over to the Downloads section on Proxmox&amp;rsquo;s site and download the installation ISO.</description>
     </item>
     
     <item>
       <title>Why a Homelab?</title>
-      <link>/posts/2023-02/why-a-homelab/</link>
+      <link>https://netsparse.dev/posts/2023-02/why-a-homelab/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2023-02/why-a-homelab/</guid>
+      <guid>https://netsparse.dev/posts/2023-02/why-a-homelab/</guid>
       <description>A homelab is a place where you can experiment, learn, and grow in ways you never thought possible. You can build yourself an environment to test and tinker with some technologies you may be interested in, practice setting up networks and operating systems, and explore cutting-edge technologies.
 With a homelab, you&amp;rsquo;re not just reading about the technology - you&amp;rsquo;re experiencing it firsthand. It&amp;rsquo;s a space where you can make mistakes and learn from them, without the fear of potentially damaging a production environment.</description>
     </item>
     
     <item>
       <title>2023 Lab Overview</title>
-      <link>/posts/2023-01/lab-overview/</link>
+      <link>https://netsparse.dev/posts/2023-01/lab-overview/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2023-01/lab-overview/</guid>
+      <guid>https://netsparse.dev/posts/2023-01/lab-overview/</guid>
       <description>A general overview of the 2 home labs and networks I have designed, currently manage, and maintain.</description>
     </item>
     
     <item>
       <title>Starting This Site</title>
-      <link>/posts/2023-01/journey/</link>
+      <link>https://netsparse.dev/posts/2023-01/journey/</link>
       <pubDate>Sun, 22 Jan 2023 12:00:00 +0000</pubDate>
       
-      <guid>/posts/2023-01/journey/</guid>
+      <guid>https://netsparse.dev/posts/2023-01/journey/</guid>
       <description>&lt;p&gt;So it&amp;rsquo;s been quite the journey figuring out the ins &amp;amp; outs of setting up a blog and writing posts in markdown.
 So I figured I may as well write about it.&lt;/p&gt;</description>
     </item>

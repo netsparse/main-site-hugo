@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ansible on NS</title>
-    <link>/tags/ansible/</link>
-    <description>Recent content in ansible on NS</description>
+    <title>ansible on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/ansible/</link>
+    <description>Recent content in ansible on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Apr 2023 16:35:08 -0500</lastBuildDate><atom:link href="/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 16:35:08 -0500</lastBuildDate><atom:link href="https://netsparse.dev/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automate Your Infrastructure With Ansible</title>
-      <link>/posts/2023-04/automate-your-infrastructure-with-ansible/</link>
+      <link>https://netsparse.dev/posts/2023-04/automate-your-infrastructure-with-ansible/</link>
       <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
       
-      <guid>/posts/2023-04/automate-your-infrastructure-with-ansible/</guid>
+      <guid>https://netsparse.dev/posts/2023-04/automate-your-infrastructure-with-ansible/</guid>
       <description>Automating your infrastructure with Ansible can be a game-changer for any organization looking to streamline their processes and reduce manual labor.
-Intro Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration of infrastructure resources, using a declarative language to describe the desired state of a system.
+Ansible is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration of infrastructure resources, using a declarative language to describe the desired state of a system.
 One of the key benefits of Ansible is its simplicity and ease of use.</description>
     </item>
     

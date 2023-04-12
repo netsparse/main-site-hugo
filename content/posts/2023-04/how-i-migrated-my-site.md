@@ -21,13 +21,11 @@ UseHugoToc: false
 draft: false
 ---
 
-I've been utilizing [Jekyll](https://jekyllrb.com/) for the past few months now to build my website. Although it does a pretty good job at doing so, I've been taking a look at [Hugo](https://gohugo.io/) and experimenting with it alongside it.
+I've been utilizing [Jekyll](https://jekyllrb.com/) for the past few months to build my website. Although it does a pretty good job at doing so, I've been taking a look at [Hugo](https://gohugo.io/) and experimenting alongside it.
 
-After I was able to replicate the website and setup a theme for it, I ended up migrating the entire site and the posts with it, making sure everything was nicely organized.
+I was able to replicate my website on Hugo with a better looking theme and decided to take the leap. I went ahead and migrated my posts and basic items, making sure everything was nicely organized. And so far, it works pretty good!
 
-Although I've archived the old site, I still host it with GitHub Pages and have otherwise changed the URL, you could still access it [here](https://netsparse.github.io/).
-
-The new Hugo site is currently hosted with Netlify, and provides awesome CI/CD integration.
+I've went ahead and archived the old site, but still host it with GitHub Pages. If you are curious, it is still accessible [here](https://netsparse.github.io/).
 
 If you are looking to migrate your Jekyll website to Hugo, fortunately, the migration process from Jekyll to Hugo is relatively straightforward. 
 

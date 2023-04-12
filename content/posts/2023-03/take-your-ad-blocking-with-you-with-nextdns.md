@@ -132,7 +132,7 @@ Use the Apple Configuration Profile Generator available at [apple.nextdns.io](ht
 {{< /rawhtml >}}
 
 1. Install the official app from the App Store.
-2. Open the app then go to Settings and toggle "Use Custom Configuration". Enter 424148 as Configuration ID.
+2. Open the app then go to Settings and toggle "Use Custom Configuration". Enter `<your-nextdns-id>` as Configuration ID.
 3. Enable NextDNS.
 
 ### Android

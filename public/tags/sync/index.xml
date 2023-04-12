@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>sync on NS</title>
-    <link>/tags/sync/</link>
-    <description>Recent content in sync on NS</description>
+    <title>sync on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/sync/</link>
+    <description>Recent content in sync on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 18:11:16 -0500</lastBuildDate><atom:link href="/tags/sync/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 18:11:16 -0500</lastBuildDate><atom:link href="https://netsparse.dev/tags/sync/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Seamless File Sync Solution With Syncthing</title>
-      <link>/posts/2023-03/seamless-file-sync/</link>
+      <link>https://netsparse.dev/posts/2023-03/seamless-file-sync/</link>
       <pubDate>Thu, 30 Mar 2023 18:11:16 -0500</pubDate>
       
-      <guid>/posts/2023-03/seamless-file-sync/</guid>
+      <guid>https://netsparse.dev/posts/2023-03/seamless-file-sync/</guid>
       <description>Syncthing is a free, open-source file synchronization software that enables you to synchronize files between your devices securely.
 Unlike traditional cloud-based storage solutions, Syncthing is decentralized, meaning it uses peer-to-peer technology which allow you to sync files between devices without the need for traditional cloud-based storage solutions or SMB/NFS systems.
 In this article, we will explore how to get started with Syncthing and utilize it to sync some files with our devices.</description>

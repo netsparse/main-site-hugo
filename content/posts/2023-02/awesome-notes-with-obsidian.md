@@ -22,8 +22,6 @@ UseHugoToc: false
 draft: false
 ---
 
-## Overview
-
 [Obsidian](https://obsidian.md/) is a powerful note-taking tool that allows you to create, organize, and link your notes in a way that makes sense to you. It's a flexible and customizable tool that can be used for a variety of purposes, from personal journaling to project management.
 
 ## Getting Started
@@ -91,15 +89,24 @@ It also allows you to customize your maps by changing the color and shape of not
 
 ### Markdown
 
-Markdown is a simple and lightweight formatting language that you can use to add formatting and structure to your plain text documents. With Markdown, you can easily create headings, lists, bold and italic text, and links, among other things.
+Markdown is a simple and lightweight formatting language that you can use to add formatting and structure to your plain text documents. You can easily create headings, lists, bold and italic text, and links, among other things.
 
-Markdown uses a series of special characters and symbols to indicate formatting. For example, you can create a heading by starting a line with one or more hash symbols (#), or make text bold by surrounding it with double asterisks (**).
+It uses a series of special characters and symbols to indicate formatting. 
 
-The great thing about Markdown is that it is very easy to read and write, and it can be used with many different types of software and applications. It is also highly portable, meaning that you can easily move your Markdown-formatted documents between different platforms and devices without losing any of the formatting.
+For example, you can create a `heading` by starting a line with one or more hash symbols `#`, or make text bold by surrounding it with double asterisks `**`.
 
-Overall, Markdown is a simple and versatile way to add structure and formatting to your text documents, without the need for complex formatting tools or software.
+```
+# This is a heading 1
+## This is a heading 2
+### This is a heading 3
+#### This is a heading 4
 
-To learn more about how to format your notes using Markdown, refer to [Basic formatting syntax](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax).
+**Bold Text**
+```
+
+The great thing about it is that it is very easy to read and write, and it can be used with many different types of software and applications. It is also highly portable, meaning that you can easily move your Markdown-formatted documents between different platforms and devices without losing any of the formatting.
+
+To learn more about how to format your notes using Markdown within Obsidian, refer to [Basic formatting syntax](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax).
 
 ## Conclusion
 

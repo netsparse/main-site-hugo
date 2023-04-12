@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ups on NS</title>
-    <link>/tags/ups/</link>
-    <description>Recent content in ups on NS</description>
+    <title>ups on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/ups/</link>
+    <description>Recent content in ups on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ups/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://netsparse.dev/tags/ups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023 Lab Overview</title>
-      <link>/posts/2023-01/lab-overview/</link>
+      <link>https://netsparse.dev/posts/2023-01/lab-overview/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2023-01/lab-overview/</guid>
+      <guid>https://netsparse.dev/posts/2023-01/lab-overview/</guid>
       <description>A general overview of the 2 home labs and networks I have designed, currently manage, and maintain.</description>
     </item>
     

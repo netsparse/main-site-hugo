@@ -22,8 +22,6 @@ UseHugoToc: false
 draft: false
 ---
 
-## Overview
-
 [Hugo](https://gohugo.io/) is a popular static site generator written in Go. It allows you to create and manage static websites quickly and easily. 
 
 In this guide, we will cover the basics of getting started with Hugo.

@@ -1,6 +1,7 @@
 baseURL: "https://netsparse.dev"
 languageCode: en-us
-title: "NS"
+title: "Netsparse"
+description: "Network · Systems Engineer - in the making"
 theme: "PaperMod"
 paginate: 5
 

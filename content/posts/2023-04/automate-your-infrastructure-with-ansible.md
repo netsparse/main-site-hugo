@@ -24,8 +24,6 @@ draft: false
 
 Automating your infrastructure with Ansible can be a game-changer for any organization looking to streamline their processes and reduce manual labor. 
 
-## Intro
-
 [Ansible](https://www.ansible.com/) is an open-source automation tool that allows you to automate tasks such as configuration management, application deployment, and orchestration of infrastructure resources, using a declarative language to describe the desired state of a system.
 
 One of the key benefits of Ansible is its simplicity and ease of use. 

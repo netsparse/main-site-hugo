@@ -22,8 +22,6 @@ UseHugoToc: false
 draft: false
 ---
 
-## Intro
-
 [Python](https://www.python.org/) is a high-level, interpreted programming language that is widely used for web development, data analysis, artificial intelligence, and other applications. 
 
 It has a clean syntax and is easy to learn, making it a great choice for beginners as well as experienced developers.
@@ -448,7 +446,7 @@ You can always use your built-in calculator on your system, but we all know it's
 
 ### Quick Tip
 
-If you wish to version control your code after building such an awesome app, check out how to use [Git](/posts/getting-started-with-git/) and push it to a central source like [GitHub](https://github.com). 
+If you wish to version control your code after building such an awesome app, check out how to use [Git](/posts/2023-03/getting-started-with-git/) and push it to a central source like [GitHub](https://github.com). 
 
 Fore example, you can always check out the [code](https://github.com/netsparse/python-web-calc) for this project.
 

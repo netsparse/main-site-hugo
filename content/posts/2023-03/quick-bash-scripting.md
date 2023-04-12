@@ -22,8 +22,6 @@ UseHugoToc: false
 draft: false
 ---
 
-## Overview
-
 [Bash](https://www.gnu.org/software/bash/) scripting is a powerful tool that enables users to automate tasks and streamline workflows in Unix-based operating systems, such as Linux and macOS. 
 
 It can be used for a variety of purposes, including system administration, web development, data analysis, and more. 

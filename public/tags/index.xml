@@ -1,522 +1,522 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on NS</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on NS</description>
+    <title>Tags on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/</link>
+    <description>Recent content in Tags on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Apr 2023 16:35:08 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 16:35:08 -0500</lastBuildDate><atom:link href="https://netsparse.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ansible</title>
-      <link>/tags/ansible/</link>
+      <link>https://netsparse.dev/tags/ansible/</link>
       <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
       
-      <guid>/tags/ansible/</guid>
+      <guid>https://netsparse.dev/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>automation</title>
-      <link>/tags/automation/</link>
+      <link>https://netsparse.dev/tags/automation/</link>
       <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
       
-      <guid>/tags/automation/</guid>
+      <guid>https://netsparse.dev/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>homelab</title>
-      <link>/tags/homelab/</link>
+      <link>https://netsparse.dev/tags/homelab/</link>
       <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
       
-      <guid>/tags/homelab/</guid>
+      <guid>https://netsparse.dev/tags/homelab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IaC</title>
-      <link>/tags/iac/</link>
+      <link>https://netsparse.dev/tags/iac/</link>
       <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
       
-      <guid>/tags/iac/</guid>
+      <guid>https://netsparse.dev/tags/iac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>/tags/linux/</link>
+      <link>https://netsparse.dev/tags/linux/</link>
       <pubDate>Thu, 06 Apr 2023 16:35:08 -0500</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>https://netsparse.dev/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>/tags/blog/</link>
+      <link>https://netsparse.dev/tags/blog/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/blog/</guid>
+      <guid>https://netsparse.dev/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>/tags/css/</link>
+      <link>https://netsparse.dev/tags/css/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/css/</guid>
+      <guid>https://netsparse.dev/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>/tags/html/</link>
+      <link>https://netsparse.dev/tags/html/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/html/</guid>
+      <guid>https://netsparse.dev/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://netsparse.dev/tags/hugo/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://netsparse.dev/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>/tags/javascript/</link>
+      <link>https://netsparse.dev/tags/javascript/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/javascript/</guid>
+      <guid>https://netsparse.dev/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>/tags/markdown/</link>
+      <link>https://netsparse.dev/tags/markdown/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/markdown/</guid>
+      <guid>https://netsparse.dev/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>static-site</title>
-      <link>/tags/static-site/</link>
+      <link>https://netsparse.dev/tags/static-site/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/static-site/</guid>
+      <guid>https://netsparse.dev/tags/static-site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>/tags/web/</link>
+      <link>https://netsparse.dev/tags/web/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/web/</guid>
+      <guid>https://netsparse.dev/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>/tags/website/</link>
+      <link>https://netsparse.dev/tags/website/</link>
       <pubDate>Tue, 04 Apr 2023 21:25:31 -0500</pubDate>
       
-      <guid>/tags/website/</guid>
+      <guid>https://netsparse.dev/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jekyll</title>
-      <link>/tags/jekyll/</link>
+      <link>https://netsparse.dev/tags/jekyll/</link>
       <pubDate>Tue, 04 Apr 2023 13:03:23 -0500</pubDate>
       
-      <guid>/tags/jekyll/</guid>
+      <guid>https://netsparse.dev/tags/jekyll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>app</title>
-      <link>/tags/app/</link>
+      <link>https://netsparse.dev/tags/app/</link>
       <pubDate>Thu, 30 Mar 2023 18:11:16 -0500</pubDate>
       
-      <guid>/tags/app/</guid>
+      <guid>https://netsparse.dev/tags/app/</guid>
       <description></description>
     </item>
     
     <item>
       <title>files</title>
-      <link>/tags/files/</link>
+      <link>https://netsparse.dev/tags/files/</link>
       <pubDate>Thu, 30 Mar 2023 18:11:16 -0500</pubDate>
       
-      <guid>/tags/files/</guid>
+      <guid>https://netsparse.dev/tags/files/</guid>
       <description></description>
     </item>
     
     <item>
       <title>networking</title>
-      <link>/tags/networking/</link>
+      <link>https://netsparse.dev/tags/networking/</link>
       <pubDate>Thu, 30 Mar 2023 18:11:16 -0500</pubDate>
       
-      <guid>/tags/networking/</guid>
+      <guid>https://netsparse.dev/tags/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sync</title>
-      <link>/tags/sync/</link>
+      <link>https://netsparse.dev/tags/sync/</link>
       <pubDate>Thu, 30 Mar 2023 18:11:16 -0500</pubDate>
       
-      <guid>/tags/sync/</guid>
+      <guid>https://netsparse.dev/tags/sync/</guid>
       <description></description>
     </item>
     
     <item>
       <title>syncthing</title>
-      <link>/tags/syncthing/</link>
+      <link>https://netsparse.dev/tags/syncthing/</link>
       <pubDate>Thu, 30 Mar 2023 18:11:16 -0500</pubDate>
       
-      <guid>/tags/syncthing/</guid>
+      <guid>https://netsparse.dev/tags/syncthing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backups</title>
-      <link>/tags/backups/</link>
+      <link>https://netsparse.dev/tags/backups/</link>
       <pubDate>Tue, 28 Mar 2023 14:00:38 -0500</pubDate>
       
-      <guid>/tags/backups/</guid>
+      <guid>https://netsparse.dev/tags/backups/</guid>
       <description></description>
     </item>
     
     <item>
       <title>guide</title>
-      <link>/tags/guide/</link>
+      <link>https://netsparse.dev/tags/guide/</link>
       <pubDate>Tue, 28 Mar 2023 14:00:38 -0500</pubDate>
       
-      <guid>/tags/guide/</guid>
+      <guid>https://netsparse.dev/tags/guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>recovery</title>
-      <link>/tags/recovery/</link>
+      <link>https://netsparse.dev/tags/recovery/</link>
       <pubDate>Tue, 28 Mar 2023 14:00:38 -0500</pubDate>
       
-      <guid>/tags/recovery/</guid>
+      <guid>https://netsparse.dev/tags/recovery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>powershell</title>
-      <link>/tags/powershell/</link>
+      <link>https://netsparse.dev/tags/powershell/</link>
       <pubDate>Thu, 23 Mar 2023 23:41:00 -0500</pubDate>
       
-      <guid>/tags/powershell/</guid>
+      <guid>https://netsparse.dev/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scripting</title>
-      <link>/tags/scripting/</link>
+      <link>https://netsparse.dev/tags/scripting/</link>
       <pubDate>Thu, 23 Mar 2023 23:41:00 -0500</pubDate>
       
-      <guid>/tags/scripting/</guid>
+      <guid>https://netsparse.dev/tags/scripting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sysadmin</title>
-      <link>/tags/sysadmin/</link>
+      <link>https://netsparse.dev/tags/sysadmin/</link>
       <pubDate>Thu, 23 Mar 2023 23:41:00 -0500</pubDate>
       
-      <guid>/tags/sysadmin/</guid>
+      <guid>https://netsparse.dev/tags/sysadmin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>/tags/windows/</link>
+      <link>https://netsparse.dev/tags/windows/</link>
       <pubDate>Thu, 23 Mar 2023 23:41:00 -0500</pubDate>
       
-      <guid>/tags/windows/</guid>
+      <guid>https://netsparse.dev/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash</title>
-      <link>/tags/bash/</link>
+      <link>https://netsparse.dev/tags/bash/</link>
       <pubDate>Tue, 21 Mar 2023 20:46:08 -0500</pubDate>
       
-      <guid>/tags/bash/</guid>
+      <guid>https://netsparse.dev/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devops</title>
-      <link>/tags/devops/</link>
+      <link>https://netsparse.dev/tags/devops/</link>
       <pubDate>Thu, 16 Mar 2023 23:32:13 -0500</pubDate>
       
-      <guid>/tags/devops/</guid>
+      <guid>https://netsparse.dev/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>/tags/git/</link>
+      <link>https://netsparse.dev/tags/git/</link>
       <pubDate>Thu, 16 Mar 2023 23:32:13 -0500</pubDate>
       
-      <guid>/tags/git/</guid>
+      <guid>https://netsparse.dev/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>/tags/github/</link>
+      <link>https://netsparse.dev/tags/github/</link>
       <pubDate>Thu, 16 Mar 2023 23:32:13 -0500</pubDate>
       
-      <guid>/tags/github/</guid>
+      <guid>https://netsparse.dev/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>/tags/programming/</link>
+      <link>https://netsparse.dev/tags/programming/</link>
       <pubDate>Thu, 16 Mar 2023 23:32:13 -0500</pubDate>
       
-      <guid>/tags/programming/</guid>
+      <guid>https://netsparse.dev/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>version control</title>
-      <link>/tags/version-control/</link>
+      <link>https://netsparse.dev/tags/version-control/</link>
       <pubDate>Thu, 16 Mar 2023 23:32:13 -0500</pubDate>
       
-      <guid>/tags/version-control/</guid>
+      <guid>https://netsparse.dev/tags/version-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>/tags/python/</link>
+      <link>https://netsparse.dev/tags/python/</link>
       <pubDate>Tue, 14 Mar 2023 22:50:11 -0500</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>https://netsparse.dev/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web framework</title>
-      <link>/tags/web-framework/</link>
+      <link>https://netsparse.dev/tags/web-framework/</link>
       <pubDate>Tue, 14 Mar 2023 22:50:11 -0500</pubDate>
       
-      <guid>/tags/web-framework/</guid>
+      <guid>https://netsparse.dev/tags/web-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webapp</title>
-      <link>/tags/webapp/</link>
+      <link>https://netsparse.dev/tags/webapp/</link>
       <pubDate>Tue, 14 Mar 2023 22:50:11 -0500</pubDate>
       
-      <guid>/tags/webapp/</guid>
+      <guid>https://netsparse.dev/tags/webapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>adblock</title>
-      <link>/tags/adblock/</link>
+      <link>https://netsparse.dev/tags/adblock/</link>
       <pubDate>Tue, 07 Mar 2023 22:48:26 -0500</pubDate>
       
-      <guid>/tags/adblock/</guid>
+      <guid>https://netsparse.dev/tags/adblock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ads</title>
-      <link>/tags/ads/</link>
+      <link>https://netsparse.dev/tags/ads/</link>
       <pubDate>Tue, 07 Mar 2023 22:48:26 -0500</pubDate>
       
-      <guid>/tags/ads/</guid>
+      <guid>https://netsparse.dev/tags/ads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns</title>
-      <link>/tags/dns/</link>
+      <link>https://netsparse.dev/tags/dns/</link>
       <pubDate>Tue, 07 Mar 2023 22:48:26 -0500</pubDate>
       
-      <guid>/tags/dns/</guid>
+      <guid>https://netsparse.dev/tags/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nextdns</title>
-      <link>/tags/nextdns/</link>
+      <link>https://netsparse.dev/tags/nextdns/</link>
       <pubDate>Tue, 07 Mar 2023 22:48:26 -0500</pubDate>
       
-      <guid>/tags/nextdns/</guid>
+      <guid>https://netsparse.dev/tags/nextdns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>/tags/docker/</link>
+      <link>https://netsparse.dev/tags/docker/</link>
       <pubDate>Thu, 02 Mar 2023 23:32:47 -0500</pubDate>
       
-      <guid>/tags/docker/</guid>
+      <guid>https://netsparse.dev/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pi-hole</title>
-      <link>/tags/pi-hole/</link>
+      <link>https://netsparse.dev/tags/pi-hole/</link>
       <pubDate>Thu, 02 Mar 2023 23:32:47 -0500</pubDate>
       
-      <guid>/tags/pi-hole/</guid>
+      <guid>https://netsparse.dev/tags/pi-hole/</guid>
       <description></description>
     </item>
     
     <item>
       <title>diagrams</title>
-      <link>/tags/diagrams/</link>
+      <link>https://netsparse.dev/tags/diagrams/</link>
       <pubDate>Thu, 23 Feb 2023 17:05:15 -0500</pubDate>
       
-      <guid>/tags/diagrams/</guid>
+      <guid>https://netsparse.dev/tags/diagrams/</guid>
       <description></description>
     </item>
     
     <item>
       <title>diagrams.net</title>
-      <link>/tags/diagrams.net/</link>
+      <link>https://netsparse.dev/tags/diagrams.net/</link>
       <pubDate>Thu, 23 Feb 2023 17:05:15 -0500</pubDate>
       
-      <guid>/tags/diagrams.net/</guid>
+      <guid>https://netsparse.dev/tags/diagrams.net/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notes</title>
-      <link>/tags/notes/</link>
+      <link>https://netsparse.dev/tags/notes/</link>
       <pubDate>Thu, 23 Feb 2023 17:05:15 -0500</pubDate>
       
-      <guid>/tags/notes/</guid>
+      <guid>https://netsparse.dev/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>productivity</title>
-      <link>/tags/productivity/</link>
+      <link>https://netsparse.dev/tags/productivity/</link>
       <pubDate>Thu, 23 Feb 2023 17:05:15 -0500</pubDate>
       
-      <guid>/tags/productivity/</guid>
+      <guid>https://netsparse.dev/tags/productivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>obsidian</title>
-      <link>/tags/obsidian/</link>
+      <link>https://netsparse.dev/tags/obsidian/</link>
       <pubDate>Tue, 21 Feb 2023 17:03:06 -0500</pubDate>
       
-      <guid>/tags/obsidian/</guid>
+      <guid>https://netsparse.dev/tags/obsidian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>containers</title>
-      <link>/tags/containers/</link>
+      <link>https://netsparse.dev/tags/containers/</link>
       <pubDate>Thu, 16 Feb 2023 18:25:12 -0500</pubDate>
       
-      <guid>/tags/containers/</guid>
+      <guid>https://netsparse.dev/tags/containers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker-compose</title>
-      <link>/tags/docker-compose/</link>
+      <link>https://netsparse.dev/tags/docker-compose/</link>
       <pubDate>Thu, 16 Feb 2023 18:25:12 -0500</pubDate>
       
-      <guid>/tags/docker-compose/</guid>
+      <guid>https://netsparse.dev/tags/docker-compose/</guid>
       <description></description>
     </item>
     
     <item>
       <title>portainer</title>
-      <link>/tags/portainer/</link>
+      <link>https://netsparse.dev/tags/portainer/</link>
       <pubDate>Thu, 16 Feb 2023 18:25:12 -0500</pubDate>
       
-      <guid>/tags/portainer/</guid>
+      <guid>https://netsparse.dev/tags/portainer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web-ui</title>
-      <link>/tags/web-ui/</link>
+      <link>https://netsparse.dev/tags/web-ui/</link>
       <pubDate>Thu, 16 Feb 2023 18:25:12 -0500</pubDate>
       
-      <guid>/tags/web-ui/</guid>
+      <guid>https://netsparse.dev/tags/web-ui/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lxc</title>
-      <link>/tags/lxc/</link>
+      <link>https://netsparse.dev/tags/lxc/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/lxc/</guid>
+      <guid>https://netsparse.dev/tags/lxc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>proxmox</title>
-      <link>/tags/proxmox/</link>
+      <link>https://netsparse.dev/tags/proxmox/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/proxmox/</guid>
+      <guid>https://netsparse.dev/tags/proxmox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>virtualization</title>
-      <link>/tags/virtualization/</link>
+      <link>https://netsparse.dev/tags/virtualization/</link>
       <pubDate>Tue, 07 Feb 2023 20:49:05 -0500</pubDate>
       
-      <guid>/tags/virtualization/</guid>
+      <guid>https://netsparse.dev/tags/virtualization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>advice</title>
-      <link>/tags/advice/</link>
+      <link>https://netsparse.dev/tags/advice/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/advice/</guid>
+      <guid>https://netsparse.dev/tags/advice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>career</title>
-      <link>/tags/career/</link>
+      <link>https://netsparse.dev/tags/career/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/career/</guid>
+      <guid>https://netsparse.dev/tags/career/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ups</title>
-      <link>/tags/ups/</link>
+      <link>https://netsparse.dev/tags/ups/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ups/</guid>
+      <guid>https://netsparse.dev/tags/ups/</guid>
       <description></description>
     </item>
     

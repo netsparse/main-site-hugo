@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>docker on NS</title>
-    <link>/tags/docker/</link>
-    <description>Recent content in docker on NS</description>
+    <title>docker on Netsparse · Angel Nevarez</title>
+    <link>https://netsparse.dev/tags/docker/</link>
+    <description>Recent content in docker on Netsparse · Angel Nevarez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 23:32:47 -0500</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 23:32:47 -0500</lastBuildDate><atom:link href="https://netsparse.dev/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Block Ads for All Your Devices with Pi-Hole DNS and Docker</title>
-      <link>/posts/2023-03/pihole-dns-with-docker/</link>
+      <link>https://netsparse.dev/posts/2023-03/pihole-dns-with-docker/</link>
       <pubDate>Thu, 02 Mar 2023 23:32:47 -0500</pubDate>
       
-      <guid>/posts/2023-03/pihole-dns-with-docker/</guid>
+      <guid>https://netsparse.dev/posts/2023-03/pihole-dns-with-docker/</guid>
       <description>Pi-hole is a DNS sinkhole that blocks advertisements, trackers, and other unwanted content from being served to devices on your network.
 It can be run on a Raspberry Pi or other hardware, but running it in a Docker container has some benefits, such as easier installation and management.
 If you are also new to Docker, check out my previous post on how to get started with Docker.
@@ -21,10 +21,10 @@ A Bit of History The Pi-hole project was started by Jacob Salmela in 2014 as an 
     
     <item>
       <title>Manage Your Docker Environment With Portainer</title>
-      <link>/posts/2023-02/manage-your-docker-env-with-portainer/</link>
+      <link>https://netsparse.dev/posts/2023-02/manage-your-docker-env-with-portainer/</link>
       <pubDate>Thu, 16 Feb 2023 18:25:12 -0500</pubDate>
       
-      <guid>/posts/2023-02/manage-your-docker-env-with-portainer/</guid>
+      <guid>https://netsparse.dev/posts/2023-02/manage-your-docker-env-with-portainer/</guid>
       <description>Portainer is a simple and open-source web application for managing Docker containers. It lets users easily deploy and manage Docker-based applications through a web interface, without needing to use the command-line tools.
 It supports various Docker environments and provides role-based access control, making it suitable for both individuals and organizations. Portainer is also highly extensible, allowing users to add more functionalities and integrate with other tools and platforms.
 Deployment Install Portainer Community Edition (CE) First, create the volume that Portainer Server will use to store its database:</description>
@@ -32,31 +32,31 @@ Deployment Install Portainer Community Edition (CE) First, create the volume tha
     
     <item>
       <title>Running Docker containers in a Proxmox LXC container</title>
-      <link>/posts/2023-02/docker-on-lxc/</link>
+      <link>https://netsparse.dev/posts/2023-02/docker-on-lxc/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2023-02/docker-on-lxc/</guid>
+      <guid>https://netsparse.dev/posts/2023-02/docker-on-lxc/</guid>
       <description>&lt;p&gt;One awesome feature in Proxmox VE is to run an LXC (Linux Container) directly from the web interface.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Get Started with Docker</title>
-      <link>/posts/2023-02/get-started-with-docker/</link>
+      <link>https://netsparse.dev/posts/2023-02/get-started-with-docker/</link>
       <pubDate>Thu, 09 Feb 2023 17:54:59 -0500</pubDate>
       
-      <guid>/posts/2023-02/get-started-with-docker/</guid>
+      <guid>https://netsparse.dev/posts/2023-02/get-started-with-docker/</guid>
       <description>Docker and Docker Compose are powerful tools that allow you to run and manage applications in containers, making it easy to set up and run applications on any machine, whether it be a laptop, desktop or server.
 Here&amp;rsquo;s a quick overview from Fireship.io.
-   Overview Docker is a platform that enables developers to create, deploy, and run applications in containers.
+Overview Docker is a platform that enables developers to create, deploy, and run applications in containers.
 Containers are lightweight, portable, and self-contained units of software that can run virtually anywhere.</description>
     </item>
     
     <item>
       <title>2023 Lab Overview</title>
-      <link>/posts/2023-01/lab-overview/</link>
+      <link>https://netsparse.dev/posts/2023-01/lab-overview/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2023-01/lab-overview/</guid>
+      <guid>https://netsparse.dev/posts/2023-01/lab-overview/</guid>
       <description>A general overview of the 2 home labs and networks I have designed, currently manage, and maintain.</description>
     </item>
     

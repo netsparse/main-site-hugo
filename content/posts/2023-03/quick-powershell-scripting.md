@@ -22,19 +22,37 @@ UseHugoToc: false
 draft: false
 ---
 
-## Overview
+[PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3) is a command-line scripting language developed by Microsoft that is designed to automate administrative tasks and manage system configurations. It provides a powerful framework for managing Windows-based systems and automating repetitive tasks.
 
-PowerShell is a command-line scripting language developed by Microsoft that is designed to automate administrative tasks and manage system configurations. It provides a powerful framework for managing Windows-based systems and automating repetitive tasks.
+Scripts are written in the [PowerShell scripting language](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3), which is based on the [.NET framework](https://dotnet.microsoft.com/en-us/). 
 
-They are written in the PowerShell scripting language, which is based on the .NET framework. The language includes features such as variables, loops, conditionals, and functions, which allow you to write scripts to perform a wide range of tasks.
+The language includes features such as variables, loops, conditionals, and functions, which allow you to write scripts to perform a wide range of tasks.
 
-In this guide, I'll guide you through the process of getting started with PowerShell, and provide some practical examples of how you can use it to perform some system administration tasks.
+In this guide, I'll guide you through the process of getting started with PowerShell, and provide some practical examples of how you can use it to perform some common tasks.
 
 ## Getting Started
 
-To get started with PowerShell, you'll need to open the PowerShell console on your Windows machine. You can do this by clicking on the Start menu and typing "PowerShell" in the search bar.
+Click on the `Start` menu and type "PowerShell" in the search bar.
 
-Once you have opened the PowerShell console, you can start entering commands. PowerShell commands are called `cmdlets`, and they are structured in a verb-noun format. 
+or
+
+Press `Win`+`X`, you may see underlines under the options. Press `I`, PowerShell will open.
+
+`Win`+`X` `A` for an elevated prompt
+
+Once you have opened the PowerShell console, you can start entering commands. 
+
+PowerShell commands are called `cmdlets`, and they are structured in a verb-noun format. 
+
+### Check PS Version
+
+To verify which version of PowerShell you are running, run:
+
+```powershell
+$PSVersionTable
+```
+
+### List Running Processes
 
 For example, to display a list of all the processes running on your machine, you would enter the following command:
 
@@ -44,19 +62,32 @@ Get-Process
 
 This will display a list of all the running processes, including their names, process IDs, and memory usage.
 
-## Practical Examples
+
+### Execution Policy
+
+The execution policy is designed to prevent a user from unknowingly running a script. Although not a security boundary, it prevents accidental launching of scripts.
+
+```powershell
+Get-ExecutionPolicy
+```
+
+PowerShell scripts can't be run at all when the execution policy is set to `Restricted`. This is the default setting on all Windows client operating systems.
+
+If you need to set the execution policy, run `Set-ExecutionPolicy` with the recommended `RemoteSigned` policy.
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
+## Quick Practical Examples
 
 ### Checking Disk Space
-
-One of the most common tasks for system administrators is checking the disk space on their servers. PowerShell makes this task easy with the following cmdlet:
 
 ```powershell
 Get-PSDrive | Where-Object {$_.Provider -like "*FileSystem"} | Format-Table Name, Used, Free, @{Name="Capacity";Expression={("{0:N2}" -f (($_.Used + $_.Free) / 1GB)) + " GB"}}
 ```
 
 ### Restarting a Service
-
-If you need to restart a service on your machine, you can do so easily with PowerShell. 
 
 For example, to restart the Windows Update service, you would enter the following command:
 
@@ -66,7 +97,7 @@ Restart-Service -Name wuauserv
 
 ### Creating a User Account
 
-You can also use PowerShell to create a new user account on your machine. The following command creates a new user account named `John` with the password `P@ssw0rd`:
+The following command creates a new user account named `John` with the password `P@ssw0rd`:
 
 ```powershell
 New-LocalUser -Name "John" -Password (ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force)
@@ -74,7 +105,7 @@ New-LocalUser -Name "John" -Password (ConvertTo-SecureString "P@ssw0rd" -AsPlain
 
 ### Removing Old Files
 
-Finally, PowerShell can also be used to remove old files from your machine. The following command removes all files in the `C:\Temp` directory that are older than 30 days:
+The following command removes all files in the `C:\Temp` directory that are older than 30 days:
 
 ```powershell
 Get-ChildItem "C:\Temp" -Recurse | Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-30)} | Remove-Item -Force
@@ -82,9 +113,7 @@ Get-ChildItem "C:\Temp" -Recurse | Where-Object {$_.LastWriteTime -lt (Get-Date)
 
 ### Moving Files by File Extension
 
-This is a PowerShell script that moves files of a given file extension from a source directory to a destination directory on the OS. 
-
-It prompts the user for input to set the source directory path, the destination directory path, and the file extension to filter files.
+This is a PowerShell script that moves files of a given file extension from a source directory to a destination directory on the OS all while promting for user input. 
 
 ```powershell
 $sourcePath = Read-Host "Enter the source directory path containing the files to be moved"
@@ -106,7 +135,7 @@ You can check out more scripts that have been developed by the community on [Git
 
 PowerShell is a valuable tool for system administrators, enabling them to automate tasks and streamline their Windows environment. 
 
-With its powerful capabilities and user-friendly interface, PowerShell is an essential tool for any Windows-based IT environment.
+With its powerful capabilities and user-friendly interface, it is an essential tool for any Windows-based IT environment.
 
 ## Learn More
 
@@ -114,6 +143,7 @@ With its powerful capabilities and user-friendly interface, PowerShell is an ess
 - [MS introduction to PowerShell](https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/)
 - [Guru99](https://www.guru99.com/powershell-tutorial.html)
 - [Official PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/)
+- [PowerShell Overview](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3)
 - [Some good examples](https://www.spguides.com/powershell-examples/)
 
 
