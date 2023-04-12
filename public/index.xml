@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NS</title>
+    <link>https://netsparse.dev/</link>
+    <description>Recent content on NS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://netsparse.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup WireGuard VPN Server on Edgerouter X (EdgeOS)</title>
+      <link>https://netsparse.dev/posts/2023-02-22-setup-wireguard-edgerouter/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/posts/2023-02-22-setup-wireguard-edgerouter/</guid>
+      <description>Note: Before making any major changes, always make a backup. Refer to the official documentation on how to perform one.
+Breakdown Step 1. Installation Note: The following installation guide was verified working on EdgeOS v2.0.9-hotfix.4 as of Feb 2023.
+Verify your EdgeOS version show version Download Wireguard Head over to WireGuard&amp;rsquo;s EdgeOS releases and look for the release that matches your platform/version.
+On the ER-X, use curl to download the .</description>
+    </item>
+    
+    <item>
+      <title>Running Docker containers in a Proxmox LXC container</title>
+      <link>https://netsparse.dev/posts/2023-01-30-docker-on-lxc/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/posts/2023-01-30-docker-on-lxc/</guid>
+      <description>&lt;p&gt;One awesome feature in Proxmox VE is to run an LXC (Linux Container) directly from the web interface.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2023 Lab Overview</title>
+      <link>https://netsparse.dev/posts/2023-01-23-lab-overview/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/posts/2023-01-23-lab-overview/</guid>
+      <description>A general overview of the 2 home labs and networks I have designed, currently manage, and maintain.</description>
+    </item>
+    
+    <item>
+      <title>Quick iPerf test</title>
+      <link>https://netsparse.dev/posts/2023-01-23-quick-iperf-test/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/posts/2023-01-23-quick-iperf-test/</guid>
+      <description>Today i&amp;#39;ll show you how to do a quick iperf test.</description>
+    </item>
+    
+    <item>
+      <title>Quickly Remove Proxmox Subscription Notice</title>
+      <link>https://netsparse.dev/posts/2023-01-23-remove-proxmox-sub-notice/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/posts/2023-01-23-remove-proxmox-sub-notice/</guid>
+      <description>&lt;p&gt;Every once in a while, I run an update on my proxmox server and reboot.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Journey of this Site</title>
+      <link>https://netsparse.dev/posts/2023-01-22-journey/</link>
+      <pubDate>Sun, 22 Jan 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/posts/2023-01-22-journey/</guid>
+      <description>&lt;p&gt;So it&amp;rsquo;s been quite the journey figuring out the ins &amp;amp; outs of setting up a blog and writing posts in markdown.
+So I figured I may as well write about it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://netsparse.dev/about/</link>
+      <pubDate>Sun, 01 Jan 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/about/</guid>
+      <description>I’ve had a huge interest in computers, the internet, building things, and learning, since I was a kid.
+Having grown up with limited access to the web, I was always astounded by computers, what they could do, and also what we could do with them.
+When I became older, and got my first personal laptop, a whole new world was introduced to me, and that was when I knew I wanted to take on the challenge of learning the magic behind the system.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://netsparse.dev/contact/</link>
+      <pubDate>Sun, 01 Jan 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/contact/</guid>
+      <description>You may contact me through the channels below, feel free to reach out regarding any questions.
+LinkedIn https://linkedin.com/in/netsparse</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://netsparse.dev/projects/</link>
+      <pubDate>Sun, 01 Jan 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://netsparse.dev/projects/</guid>
+      <description>2023 Future Full Lab Orchestration with Kubernetes Current Improvements in Backup &amp;amp; Recovery Strategies Local Services Performance fine-tuning Home Lab Documentation Website / Blog Revisions Completed Migration to Hugo (from Jekyll) - April 2023 Reference Blog launched - Jan 2023 Website launched - Jan 2023 2022 The projects below are a general overview of some of the major projects I was able to complete over the course of the year, no detailed documentation exists as things were constantly evolving, although I may write about some of the techniques and setup guides in a future post.</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

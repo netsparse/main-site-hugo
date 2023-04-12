@@ -1,0 +1,81 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+
+.extvid-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    }
+    .extvid-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    }
+
+
+.embed-youtube {
+    background-color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.embed-youtube img {
+    width: 100%;
+    top: -16.84%;
+    left: 0;
+    opacity: 1;
+}
+.embed-youtube .embed-youtube-play {
+    width: 68px;
+    height: 48px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.embed-youtube .embed-youtube-play:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.embed-youtube img,
+.embed-youtube .embed-youtube-play {
+    cursor: pointer;
+}
+.embed-youtube img,
+.embed-youtube iframe,
+.embed-youtube .embed-youtube-play,
+.embed-youtube .embed-youtube-play:before {
+    position: absolute;
+}
+.embed-youtube .embed-youtube-play,
+.embed-youtube .embed-youtube-play:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.embed-youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.embed-youtube .embed-youtube-play:hover {
+    background-color: #f00;
+}
+
+.chroma {
+    background-color: unset !important;
+  }
