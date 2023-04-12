@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://netsparse.dev"
 languageCode: en-us
 title: "NS"
 theme: "PaperMod"
