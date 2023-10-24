@@ -127,10 +127,6 @@ ForEach-Object {
 }
 ```
 
-### More Scripts
-
-You can check out more scripts that have been developed by the community on [GitHub](https://github.com/fleschutz/PowerShell), and also some provided by Microsoft [here](https://learn.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.3).
-
 ## Conclusion
 
 PowerShell is a valuable tool for system administrators, enabling them to automate tasks and streamline their Windows environment. 
@@ -146,4 +142,10 @@ With its powerful capabilities and user-friendly interface, it is an essential t
 - [PowerShell Overview](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3)
 - [Some good examples](https://www.spguides.com/powershell-examples/)
 
+## Resources & More Scripts
 
+- [Powershell Gallery](https://www.powershellgallery.com/)
+- [PDQ Powershell Scanners](https://github.com/pdqcom/PowerShell-Scanners)
+- [Community GitHub Collection](https://github.com/fleschutz/PowerShell)
+- [Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.3)
+- More to come...

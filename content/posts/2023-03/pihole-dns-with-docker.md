@@ -2,7 +2,7 @@
 layout: post
 author: Angel
 date: 2023-03-02T23:32:47-05:00
-title: "Block Ads for All Your Devices with Pi-Hole DNS and Docker"
+title: "Block Ads for All Your Devices with Pi-Hole DNS"
 tags: ["pi-hole", "docker", "dns", "adblock", "ads", "networking"]
 description:
 showToc: true

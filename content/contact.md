@@ -28,3 +28,7 @@ You can connect with me through the channels below, feel free to reach out regar
 
 ### Email
 `contact[at]netsparse.dev`
+
+### Consulting
+
+If you are in need of IT or technical assistance with your business, project or idea, feel free to reach out to me by email with any inquiries.

@@ -20,20 +20,23 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 ---
-## 2023
+
+## 2024
 
 #### Future
-- Full Lab Orchestration with Kubernetes
 
-#### Current
+- Kubernetes Implementation
+- Full Observability and Metrics Platform with Grafana and Prometheus 
+- Security Hardening of Labs
+
+### 2023
+
 - [Improvements in Backup & Recovery Strategies](/posts/2023-03/data-backup-guide/#my-strategies-for-my-lab)
-- Local Services Performance fine-tuning
-- [Automating Lab with Ansible](/posts/2023-04/automate-your-infrastructure-with-ansible)
+- Improvements in Hosted Services Performance, Stability, & Uptime
+- [Ansible Implementation](/posts/2023-04/automate-your-infrastructure-with-ansible)
 - [Home Lab Documentation](/posts/2023-01/lab-overview)
+- [Power Redundancy, Failover & Data Recovery Tests](/posts/2023-06/testing-the-lab)
 - Website & Blog Revisions
-
-
-#### Completed
 - [Migrated Jekyll Site to Hugo](/posts/2023-04/how-i-migrated-my-site) - Apr 2023
 - [Web Calc with Python and Flask](/posts/2023-03/hands-on-python/#build-a-calculator-app-for-the-web-using-flask) - Feb 2023
 - [Website & Reference Blog launched](/posts/2023-01/journey) - Jan 2023
@@ -57,7 +60,7 @@ The projects below are a general overview of some of the major projects I was ab
 ---
 
 ### 2020
-- Initial lab designs (both)
+- Initial lab designs
 - [H2DC Lab Deployed](/posts/2023-01/lab-overview/#homelab-2-h2dc-logical-layout)
 - New Synology NAS (H2DC)
 

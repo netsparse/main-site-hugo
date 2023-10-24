@@ -124,9 +124,9 @@ menu:
       name: Search
       url: /search/
       weight: 10
-    - name: Tags
-      url: tags/
-      weight: 25
+#    - name: Tags
+#      url: tags/
+#      weight: 25
 #    - name: Categories
 #      url: categories/
 #      weight: 27
@@ -141,11 +141,15 @@ menu:
     - identifier: about
       name: About
       url: /about/
-      weight: 50
+      weight: 60
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 40
+    - identifier: lab
+      name: Lab
+      url: /posts/2023-01/lab-overview
+      weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

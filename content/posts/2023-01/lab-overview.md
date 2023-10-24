@@ -2,7 +2,7 @@
 layout: post
 author: Angel
 date: 2023-01-23
-title: 2023 Lab Overview
+title: IT Homelab(s) Overview
 description: A general overview of the 2 home labs and networks I have designed, currently manage, and maintain.
 tags: ["homelab", "docker", "virtualization", "networking", "ups"] 
 excerpt_separator: <!--more-->
@@ -26,16 +26,19 @@ UseHugoToc: false
 draft: false
 ---
 
-**H1DC** and **H2DC** are projects I've been actively working on long before starting this site. Both labs are meant to be a testing platform for me in learning new technologies. I've been able to build them throughout the past 4 years, although they have been in constant flux, I believe these labs have definitely influenced my journey and development as an IT professional, and continue to influence my learning everyday.
+**H1DC** and **H2DC** are projects I've been actively working on long before starting this site. Both labs are meant to be a testing and prototyping platform for learning new technologies. 
 
-## Homelab #1 "H1DC" Logical Layout
+I've been able to build them throughout the years, although they have been in constant flux, I believe these labs have definitely influenced my journey and development as an IT professional and continue to influence my learning everyday.
+
+## Homelab #1 "H1DC" Logical Layout 
 ![diagram](https://d287cykochbccj.cloudfront.net/diagrams/h1dc-lab-diagram-2023-v2.svg)
 
 ### Physical Layout
 ![img](https://d287cykochbccj.cloudfront.net/pictures/h1dc/IMG_20210219_141819.webp)
 ![img](https://d287cykochbccj.cloudfront.net/pictures/h1dc/IMG_20201221_183413.webp)
 
-The first home lab titled "H1DC" ("DC" short for Datacenter), was actually my first lab, it is at my family's residence, but I do manage it remotely if needed.
+
+The first home lab titled "H1DC" ("DC" short for Datacenter), was actually my first lab, it is at my family's residence, which I mostly manage remotely if needed.
 
 Although the lab has gone through many changes over the years, the diagram above illustrates the most recent version of how the network is laid out, and the services currently hosted there.
 

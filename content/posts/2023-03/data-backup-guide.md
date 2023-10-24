@@ -26,13 +26,11 @@ Data is arguably one of the most important assets in our modern world. We use co
 
 However, these devices are not immune to failures or accidents. In the event of a hard drive crash, theft, or other catastrophic event, having a backup of your data is critical. 
 
-In this post, we will discuss the importance of backups, the 3-2-1 method, and how to backup your Linux, Windows, and Mac machines so that you can rest assured that your data is safe.
+We will discuss the importance of backups, the 3-2-1 method, and how to backup your Linux, Windows, and Mac machines so that you can rest assured that your data is safe.
 
 ## Why Backups Are Important
 
-We've all heard the horror stories of data being deleted or being lost by ransomware. When it comes to preparing for data loss in my environment, there are a couple key strategies one could use that could minimize the impact of being severely affected by data loss.
-
-Data loss can have devastating consequences. If you lose your personal photos, documents, or other files, you may not be able to recover them. If you lose your work files, it could result in a loss of productivity and revenue for your business. 
+We've all heard the horror stories of data being deleted or being lost by ransomware. When it comes to preparing for potential data loss or corruption, there are a couple key strategies one could use that could minimize the impact of being severely affected.
 
 Backups provide a way to protect your data against any potential for loss in the future.
 
