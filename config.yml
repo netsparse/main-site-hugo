@@ -1,7 +1,7 @@
 baseURL: "https://netsparse.dev"
 languageCode: en-us
 title: "Netsparse"
-description: "Network · Systems Engineer - in the making"
+description: "Systems Engineer - in the making"
 theme: "PaperMod"
 paginate: 5
 
@@ -19,7 +19,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
 #  title: Netsparse
-  description: "Network · Systems Engineer - in the making"
+  description: "Systems Engineer - in the making"
   keywords: [Blog, Portfolio, PaperMod]
   author: Angel
 #  author: ["Me", "You"] # multiple authors
@@ -69,7 +69,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Angel Nevarez"
+    Title: "Angel N."
     Content: Network · Systems Engineer - in the making
 
   socialIcons:
