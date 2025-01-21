@@ -137,7 +137,6 @@ With its powerful capabilities and user-friendly interface, it is an essential t
 
 - [Windows PowerShell Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/183.powershell-survival-guide.aspx)
 - [MS introduction to PowerShell](https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/)
-- [Guru99](https://www.guru99.com/powershell-tutorial.html)
 - [Official PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/)
 - [PowerShell Overview](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3)
 - [Some good examples](https://www.spguides.com/powershell-examples/)
